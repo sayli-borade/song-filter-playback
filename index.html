@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YouTube Music UI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+<div class="logo">
+  <div class="circle">
+    <div class="play"></div>
+  </div>
+  <h2>YouTube Music</h2>
+</div>
+<p class="active">Home</p>
+<p>Explore</p>
+<p>Library</p>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+<!-- SEARCH -->
+<div class="search-bar">
+<input type="text" id="searchBar" placeholder="Search songs, artists...">
+</div>
+
+<!-- CHIPS -->
+<div class="chips">
+<span>Feel Good</span>
+<span>Workout</span>
+<span>Energize</span>
+<span>Relax</span>
+<span>Romance</span>
+<span>Party</span>
+</div>
+
+<h2>Quick Picks</h2>
+
+<div class="quick-picks" id="songList"></div>
+
+<p id="nowPlaying"></p>
+
+</div>
+</div>
+
+<audio id="audioPlayer" controls style="width:100%; margin-top:20px;"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
