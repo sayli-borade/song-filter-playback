@@ -21,8 +21,8 @@ This project is a simple YouTube Music style web application built using HTML, C
 
 ---
 
-## 📂 Project Structure
-case_study/ │── index.html │── style.css │── script.js │── images/ │── songs/
+## 📂 Project Structure_
+case_study/ │── index.html │── style.css │── script.js │── images/ │── songs/ │── Song_Filter_Case_Study/
 
 ---
 
@@ -38,6 +38,12 @@ case_study/ │── index.html │── style.css │── script.js │─�
 
 ## 🎯 Main Function
 - `showSongs(category)` → Displays songs based on selected category
+
+---
+
+## 📄 Case Study
+The detailed written case study for this project is available here:  
+👉 [Download Case Study](Song_Filter_Case_Study.pdf)
 
 ---
 
